@@ -1,0 +1,159 @@
+{
+  "CalculatorApi.dll": {
+    "/home/user1/my/apps/dotnet/SocialMultiplicationApp/CalculatorApi/Services/RandomNumberService.cs": {
+      "services.RandomNumberService": {
+        "System.Int32 services.RandomNumberService::GenerateRandomNumber()": {
+          "Lines": {
+            "9": 1002,
+            "10": 1002,
+            "11": 1002,
+            "12": 1002
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/user1/my/apps/dotnet/SocialMultiplicationApp/CalculatorApi/Services/MultiplicationService.cs": {
+      "Calculator.Services.MultiplicationService": {
+        "System.Int32 Calculator.Services.MultiplicationService::get_FactorA()": {
+          "Lines": {
+            "16": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 Calculator.Services.MultiplicationService::get_FactorB()": {
+          "Lines": {
+            "18": 3
+          },
+          "Branches": []
+        },
+        "Models.Multiplication Calculator.Services.MultiplicationService::GetMultiplicationResult()": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        },
+        "System.Void Calculator.Services.MultiplicationService::GenerateRandomFactors()": {
+          "Lines": {
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2
+          },
+          "Branches": []
+        },
+        "System.Void Calculator.Services.MultiplicationService::.ctor(services.IRandomNumberService)": {
+          "Lines": {
+            "8": 4,
+            "9": 2,
+            "10": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/user1/my/apps/dotnet/SocialMultiplicationApp/CalculatorApi/Program.cs": {
+      "CalculatorApi.Program": {
+        "System.Void CalculatorApi.Program::Main(System.String[])": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Hosting.IWebHostBuilder CalculatorApi.Program::CreateWebHostBuilder(System.String[])": {
+          "Lines": {
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/user1/my/apps/dotnet/SocialMultiplicationApp/CalculatorApi/Startup.cs": {
+      "CalculatorApi.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration CalculatorApi.Startup::get_Configuration()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void CalculatorApi.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void CalculatorApi.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void CalculatorApi.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/user1/my/apps/dotnet/SocialMultiplicationApp/CalculatorApi/Models/Multiplication.cs": {
+      "Models.Multiplication": {
+        "System.Int32 Models.Multiplication::get_Result()": {
+          "Lines": {
+            "15": 9
+          },
+          "Branches": []
+        },
+        "System.Void Models.Multiplication::.ctor(System.Int32,System.Int32)": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 3
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
